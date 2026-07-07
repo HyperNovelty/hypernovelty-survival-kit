@@ -45,6 +45,7 @@ Create or adapt a survival card using:
 
 - `schemas/survival-card.schema.json`
 - `examples/survival-card.example.json`
+- `examples/rendered/survival-card.example.html`
 
 Read `docs/open-lab-positioning.md` for how this umbrella kit relates to the five satellite public proof repos.
 
@@ -54,12 +55,11 @@ This repo uses Python standard library only.
 
 ```bash
 PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate_survival_card.py examples/survival-card.example.json
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/render_survival_card_html.py examples/survival-card.example.json examples/rendered/survival-card.example.html
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests
 ```
 
-The validator checks that a survival card has the required public fields and that `sources` is a non-empty list.
-
-There is no renderer in this umbrella repo. The satellite repos include renderers where a structured review artifact benefits from a static HTML view.
+The validator checks that a survival card has the required public fields and that `sources` is a non-empty list. The renderer writes a local static HTML review page that can be opened in a browser.
 
 ## What This Repo Does Not Do
 
