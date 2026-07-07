@@ -2,6 +2,8 @@
 
 Practical tools for staying oriented when AI, climate, media, education, markets, and institutions change faster than normal playbooks can update.
 
+This repository is the umbrella map for a small Hypernovelty Open Lab public proof footprint. It is designed to show practical review habits, not to claim certification, compliance coverage, or proprietary AWSE internals.
+
 ## What Hypernovelty Means
 
 Hypernovelty is the condition of facing many new, fast-changing situations at once. The tools, habits, and institutions people normally rely on may still matter, but they may not update quickly enough for the current environment.
@@ -44,16 +46,20 @@ Create or adapt a survival card using:
 - `schemas/survival-card.schema.json`
 - `examples/survival-card.example.json`
 
+Read `docs/open-lab-positioning.md` for how this umbrella kit relates to the five satellite public proof repos.
+
 ## Run Validation
 
 This repo uses Python standard library only.
 
 ```bash
-python3 scripts/validate_survival_card.py examples/survival-card.example.json
-python3 -m unittest discover -s tests
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate_survival_card.py examples/survival-card.example.json
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests
 ```
 
 The validator checks that a survival card has the required public fields and that `sources` is a non-empty list.
+
+There is no renderer in this umbrella repo. The satellite repos include renderers where a structured review artifact benefits from a static HTML view.
 
 ## What This Repo Does Not Do
 
@@ -68,6 +74,17 @@ Use this repo for education and research. Treat every checklist as a starting po
 Do not put private data, student records, client data, credentials, secrets, unpublished material, or sensitive operational details into public survival cards.
 
 ## Related Public Hypernovelty Repos
+
+Six-repo proof footprint:
+
+- [hypernovelty-survival-kit](https://github.com/HyperNovelty/hypernovelty-survival-kit)
+- [agent-run-receipts](https://github.com/HyperNovelty/agent-run-receipts)
+- [ai-workflow-safety-screen](https://github.com/HyperNovelty/ai-workflow-safety-screen)
+- [source-card-schema](https://github.com/HyperNovelty/source-card-schema)
+- [hypernovelty-verification-literacy-kit](https://github.com/HyperNovelty/hypernovelty-verification-literacy-kit)
+- [ai-school-readiness-kit](https://github.com/HyperNovelty/ai-school-readiness-kit)
+
+Adjacent public projects:
 
 - [agent-policy-cards](https://github.com/HyperNovelty/agent-policy-cards)
 - [education-adaptation-cards](https://github.com/HyperNovelty/education-adaptation-cards)
