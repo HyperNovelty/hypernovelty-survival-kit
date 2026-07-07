@@ -1,0 +1,14 @@
+{
+  "id": "school-ai-readiness-001",
+  "title": "Require a Human Review Gate for Student-Facing AI Output",
+  "domain": "education-readiness",
+  "audience": "Teachers, school leaders, and parent advisory groups",
+  "problem": "AI tools can produce fluent explanations, lesson materials, or student feedback that contain errors, bias, privacy exposure, or claims that do not match the learning goal.",
+  "practical_step": "Before AI-assisted material reaches students or families, assign a named adult reviewer to check accuracy, age fit, privacy exposure, and alignment with the learning goal.",
+  "caveat": "This card is a public education aid. It is not legal advice, student safety advice, or a substitute for local school policy and qualified professional judgment.",
+  "human_gate": "A teacher or school leader signs off before the material is used, and records what was changed or rejected after review.",
+  "sources": [
+    "https://github.com/HyperNovelty/education-adaptation-cards",
+    "https://github.com/HyperNovelty/agent-policy-cards"
+  ]
+}
