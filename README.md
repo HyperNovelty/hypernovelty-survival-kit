@@ -47,7 +47,7 @@ Create or adapt a survival card using:
 - `examples/survival-card.example.json`
 - `examples/rendered/survival-card.example.html`
 
-Read `docs/open-lab-positioning.md` for how this umbrella kit relates to the five satellite public proof repos.
+Read `docs/open-lab-positioning.md` for project positioning, `docs/OSS_PORTFOLIO_MAP.md` for the current ten-repo public portfolio map, and `docs/CLAUDE_FOR_OSS_EVIDENCE.md` for truthful Claude for OSS evidence notes.
 
 ## Run Validation
 
@@ -75,21 +75,20 @@ Do not put private data, student records, client data, credentials, secrets, unp
 
 ## Related Public Hypernovelty Repos
 
-Six-repo proof footprint:
+Current ten-repo OSS footprint:
 
-- [hypernovelty-survival-kit](https://github.com/HyperNovelty/hypernovelty-survival-kit)
-- [agent-run-receipts](https://github.com/HyperNovelty/agent-run-receipts)
-- [ai-workflow-safety-screen](https://github.com/HyperNovelty/ai-workflow-safety-screen)
-- [source-card-schema](https://github.com/HyperNovelty/source-card-schema)
-- [hypernovelty-verification-literacy-kit](https://github.com/HyperNovelty/hypernovelty-verification-literacy-kit)
-- [ai-school-readiness-kit](https://github.com/HyperNovelty/ai-school-readiness-kit)
+- [hypernovelty-survival-kit](https://github.com/HyperNovelty/hypernovelty-survival-kit) — umbrella map and survival/checklist kit.
+- [agent-run-receipts](https://github.com/HyperNovelty/agent-run-receipts) — AI/coding-agent accountability receipts.
+- [ai-workflow-safety-screen](https://github.com/HyperNovelty/ai-workflow-safety-screen) — review-gate screens for AI-involved workflows.
+- [source-card-schema](https://github.com/HyperNovelty/source-card-schema) — portable source/claim cards.
+- [hypernovelty-verification-literacy-kit](https://github.com/HyperNovelty/hypernovelty-verification-literacy-kit) — verification mini-labs.
+- [ai-school-readiness-kit](https://github.com/HyperNovelty/ai-school-readiness-kit) — school AI readiness cards and checklists.
+- [surviving-hypernovelty](https://github.com/HyperNovelty/surviving-hypernovelty) — companion orientation materials.
+- [agent-policy-cards](https://github.com/HyperNovelty/agent-policy-cards) — agent boundary/policy card fixtures.
+- [education-adaptation-cards](https://github.com/HyperNovelty/education-adaptation-cards) — education adaptation card examples.
+- [ipublishos-source-research-intake](https://github.com/HyperNovelty/ipublishos-source-research-intake) — source/research intake workflows.
 
-Adjacent public projects:
-
-- [agent-policy-cards](https://github.com/HyperNovelty/agent-policy-cards)
-- [education-adaptation-cards](https://github.com/HyperNovelty/education-adaptation-cards)
-- [ipublishos-source-research-intake](https://github.com/HyperNovelty/ipublishos-source-research-intake)
-- [surviving-hypernovelty](https://github.com/HyperNovelty/surviving-hypernovelty)
+See `docs/OSS_PORTFOLIO_MAP.md` for the organized map.
 
 ## License
 
